@@ -242,7 +242,7 @@ export default function Login() {
             border: '1px solid rgba(168,130,216,0.15)',
             fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6,
           }}>
-            <strong style={{ color: '#a882d8' }}>Modo demo</strong> (sem backend):<br />
+            <strong style={{ color: '#a882d8' }}>Modo demo</strong>:<br />
             demo@utfpr.edu.br · senha: demo123
           </div>
         </div>
@@ -250,3 +250,6 @@ export default function Login() {
     </div>
   );
 }
+
+
+
