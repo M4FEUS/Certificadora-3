@@ -29,6 +29,6 @@ Para instruções detalhadas de como salvar o código, compilar e executar cada 
 
 ## 4. Vídeo de Instalação e Execução
 Confira o processo completo de configuração e o sistema em funcionamento no link abaixo:
-*   https://youtu.be/1zPjqhj1e7k
+*   https://www.youtube.com/watch?v=BLKy6RHx4ks
 
 ---

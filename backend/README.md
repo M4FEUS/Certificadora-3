@@ -246,7 +246,7 @@ pytest -v
 
 O link para o vídeo com a instalação das ferramentas e execução do sistema pode ser encontrado abaixo:
 
-* https://youtu.be/1zPjqhj1e7k
+* https://www.youtube.com/watch?v=BLKy6RHx4ks
 
 ---
 
