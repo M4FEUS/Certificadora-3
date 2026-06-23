@@ -253,7 +253,6 @@ O link para o vídeo com a instalação das ferramentas e execução do sistema 
 ## 9. Equipe
 
 * Gabriel Augusto Morisaki Rita
-* Kalvin Koiti Ishii
 * Matheus Roberto Ernandes
 * Stéffane Leal Silva Santos
 
