@@ -126,12 +126,6 @@ export default function Login() {
             display: 'inline-flex', alignItems: 'center', gap: 10,
             textDecoration: 'none', color: 'inherit', marginBottom: 56,
           }}>
-            <div style={{
-              width: 40, height: 40, borderRadius: '50%',
-              background: 'linear-gradient(135deg, #6b3fa0, #c9378a)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: 14, fontWeight: 800,
-            }}>IM</div>
             <div>
               <div style={{ fontSize: 15, fontWeight: 700 }}>Impactômetro</div>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.35)', letterSpacing: '0.06em' }}>
@@ -139,15 +133,6 @@ export default function Login() {
               </div>
             </div>
           </Link>
-
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: 8,
-            padding: '5px 12px', borderRadius: 999,
-            background: 'rgba(228,180,60,0.12)',
-            border: '1px solid rgba(228,180,60,0.25)',
-            fontSize: 11, fontWeight: 700, color: '#f0c85a',
-            marginBottom: 24,
-          }}>✦ Meninas Digitais · UTFPR-CP</div>
 
           <h1 style={{
             fontFamily: "'DM Serif Display', serif",
@@ -159,31 +144,6 @@ export default function Login() {
           <p style={{ fontSize: 15, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, maxWidth: 360 }}>
             Acesse o painel para gerenciar eventos, registrar participações e visualizar o impacto social do projeto Leia Mulheres.
           </p>
-
-          {/* Stats rápidos */}
-          <div style={{
-            marginTop: 48, display: 'grid', gridTemplateColumns: '1fr 1fr',
-            gap: 12,
-          }}>
-            {[
-              { n: '312', l: 'Participantes' },
-              { n: '24', l: 'Eventos' },
-              { n: '47', l: 'Livros' },
-              { n: '8.6', l: 'IIS Médio' },
-            ].map((s, i) => (
-              <div key={i} style={{
-                padding: '14px 16px',
-                background: 'rgba(255,255,255,0.03)',
-                border: '1px solid rgba(255,255,255,0.06)',
-                borderRadius: 12,
-              }}>
-                <div style={{ fontSize: 24, fontWeight: 800, color: i % 2 === 0 ? '#c9378a' : '#a882d8' }}>
-                  {s.n}
-                </div>
-                <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginTop: 2 }}>{s.l}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

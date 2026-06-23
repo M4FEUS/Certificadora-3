@@ -110,7 +110,7 @@ export default function Relatorios() {
       <Topbar title="SAÍDA" subtitle="Relatórios PDF" />
       <div className="page-content">
         <h1 className="page-heading">Relatórios PDF</h1>
-        <p className="page-sub">Geração de relatórios consolidados — RF6</p>
+        <p className="page-sub">Geração de relatórios consolidados</p>
 
         {feedback && (
           <div className="alert alert-success" style={{ marginBottom: 16, display: 'flex', alignItems: 'center', gap: 8 }}>

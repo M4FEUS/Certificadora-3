@@ -10,7 +10,7 @@ questionarios_bp = Blueprint("questionarios", __name__)
 @questionarios_bp.route("/api/questionarios", methods=["POST"])
 @admin_requerido
 def submeter_questionario():
-    """Submeter questionário de impacto (RF2)
+    """Submeter questionário de impacto
     ---
     tags:
       - Questionários

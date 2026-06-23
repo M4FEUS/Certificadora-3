@@ -35,7 +35,7 @@ export default function Comparativos() {
 
       <div className="page-content">
         <h1 className="page-heading">Comparativo Histórico</h1>
-        <p className="page-sub">Evolução temporal dos indicadores do projeto — RF4</p>
+        <p className="page-sub">Evolução temporal dos indicadores do projeto</p>
 
         {loading ? (
           <div className="loading-block"><div className="spinner" /></div>

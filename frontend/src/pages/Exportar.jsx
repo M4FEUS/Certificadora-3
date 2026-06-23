@@ -57,7 +57,7 @@ export default function Exportar() {
 
       <div className="page-content">
         <h1 className="page-heading">Exportar Dados</h1>
-        <p className="page-sub">Exporte os dados do sistema em formatos abertos — RF7</p>
+        <p className="page-sub">Exporte os dados do sistema em formatos abertos</p>
 
         {lastExport && (
           <div className="alert alert-success" style={{ marginBottom: 16, display: 'flex', alignItems: 'center', gap: 8 }}>
