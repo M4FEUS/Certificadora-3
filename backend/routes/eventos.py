@@ -11,7 +11,7 @@ eventos_bp = Blueprint("eventos", __name__)
 @eventos_bp.route("/api/eventos", methods=["POST"])
 @admin_requerido
 def criar_evento():
-    """Registrar um novo evento (RF1)
+    """Registrar um novo evento
     ---
     tags:
     - Eventos
