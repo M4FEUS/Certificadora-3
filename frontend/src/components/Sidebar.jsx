@@ -47,7 +47,6 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <div className="brand-avatar">IM</div>
         <div>
           <div className="brand-name">Impactômetro</div>
           <div className="brand-sub">Leia Mulheres · MD UTFPR-CP</div>
